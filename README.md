@@ -1,4 +1,4 @@
-# EasyNet Solution P.L.C. — Hospital Information System
+# EasyNet Solution P.L.C. — Hospital Management Information System
 
 **Smart Healthcare · Better Tomorrow**
 
