@@ -84,7 +84,7 @@ Billing now supports ETB invoices, outstanding balances, payment requests and pa
 ## Ethiopian payment reconciliation
 Billing supports ETB invoices, payment requests and provider adapters for TELEBIRR and CBE_BIRR. A QR request is never treated as revenue until a verified provider callback or authorized reconciliation creates a COMPLETED Payment. Provider API URLs/secrets must be supplied by the hospital's merchant contracts; no provider endpoint is fabricated by the application.
 
-## 2026 Senior Engineering / Clinical Review Baseline
+## Senior Engineering / Clinical Review Baseline
 
 The current reviewed baseline applies an international hospital-navigation structure, data-driven permission-aware navigation, facility-timezone reporting, formal A4 management reports and CMS-branded receipts, security headers, PHI no-store API responses, transactional bed allocation, stronger clinical referential validation, and an international Unicode-capable UI font stack (`Noto Sans`, `Noto Sans Ethiopic`, then system fallbacks).
 
