@@ -1,0 +1,21 @@
+{
+  "name": "easynet-solution-his",
+  "private": true,
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "scripts": {
+    "dev": "concurrently \"npm:dev:server\" \"npm:dev:client\"",
+    "dev:client": "npm --workspace client run dev",
+    "dev:server": "npm --workspace server run dev",
+    "build": "npm --workspace client run build",
+    "start": "npm --workspace server run start",
+    "db:deploy": "npm --workspace server run db:deploy",
+    "db:seed": "npm --workspace server run db:seed",
+    "db:generate": "npm --workspace server run db:generate"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
